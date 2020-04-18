@@ -42,7 +42,16 @@ int main()
                     }
                 }
             }
-            if (tab[lin][col] < 10)
+
+        }
+
+    }
+    for (lin = 0; lin < 5; lin++)
+    {
+        for (col = 0; col < 5; col++)
+        {
+
+                if (tab[lin][col] < 10)
             //para que a formatacao fique coerente
             {
                 printf ("%d   ", tab[lin][col]);
@@ -51,7 +60,7 @@ int main()
             {
                 printf ("%d  ", tab[lin][col]);
             }
-        }
-        printf("\n");
-    }
+   }
+   printf("\n");
+}
 }
